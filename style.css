@@ -12,3 +12,7 @@
     border: 1px solid #ddd;
     box-sizing: border-box; /* Includes border in square's width and height */
 }
+
+.grid-square.hovered {
+    background-color: black;
+}
