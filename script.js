@@ -6,4 +6,9 @@ for (i = 0; i < gridSize * gridSize; i++) {
     const square = document.createElement('div');
     square.classList.add('grid-square');
     container.appendChild(square);
+
+    square.addEventListener('mouseover', () => {
+        square.classList.add('hovered');
+    });
 }
+
